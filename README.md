@@ -1,54 +1,67 @@
+# Krishna Teja Portfolio
 
+## 🚀 How to Run Locally
 
-
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+You’ll need **Node.js** & **npm** installed.  
+[Install Node.js using nvm](https://github.com/nvm-sh/nvm#installing-and-updating) if you don’t already have it.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Go into the project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
-```
+The app will be available at http://localhost:5173 (or the port shown in the terminal).
 
-**Edit a file directly in GitHub**
+📝 Editing the Code
+Option 1: Edit Locally
+Open the folder in VS Code (or your editor), make changes, then commit & push:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+sh
+Copy code
+git add .
+git commit -m "Your commit message"
+git push
+Option 2: Edit Directly on GitHub
+Open the repository on GitHub.
 
-**Use GitHub Codespaces**
+Navigate to the file you want to edit.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click the pencil icon (top-right).
 
-## What technologies are used for this project?
+Make changes and Commit changes.
 
-This project is built with:
+Option 3: Use GitHub Codespaces
+On the repo page click Code → Codespaces → New codespace.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Edit files directly in the browser.
 
+Commit & push changes when finished.
 
+🛠️ Technologies Used
+Vite
 
+TypeScript
 
+React
+
+shadcn-ui
+
+Tailwind CSS
+
+📄 Deployment
+This portfolio is deployed with Vercel.
+Any changes pushed to the main branch will automatically redeploy.
+
+pgsql
+Copy code
+
+This will replace your old README and look neat on GitHub.  
+
+Want me to also show you the commands to **update the README and push it** to GitHub?
